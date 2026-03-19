@@ -1,174 +1,299 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>miniproject about icecream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Hind+Madurai:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Montserrat:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<section>
-<nav>
-  <ul>
-    <li><a href="contact.html">контакти</a></li>
-    <li><a href="index.html">головна</a></li>
-  </ul>
-</nav>
-    <h1>КІТ-олицитворение милоти</h1>
-  <img src="cat.jpeg" alt="удивлений котик">  
-  <p><strong>🐱коти </strong> — це маленькі домашні хижаки, відомі своєю грайливістю та незалежністю. Вони мають гострий зір у темряві, дуже чутливий слух і використовують вуса для орієнтації в просторі.</p>
-</section>
+  <body>
+    <header class="header box">
+      <img src="./images/Logo.png" alt="ice cream shop logo" class="img" />
+      <nav>
+        <ul class="nav-list">
+          <li class="headeri__list1"><a href="#main">Main</a></li>
+          <li class="headeri__list2"><a href="#about_us">About Us</a></li>
+          <li class="headeri__list4"><a href="#our_product">Trainers</a></li>
+          <li class="headeri__list3"><a href="#app">App</a></li>
+        </ul>
+      </nav>
+      <ul class="social-list">
+        <li><img src="./images/Inst.png" alt="Instagram logo" /></li>
+        <li><img src="./images/Facebook.png" alt="Facebook logo" /></li>
+        <li><img src="./images/TikTok.png" alt="TikTok logo" /></li>
+        <li><img src="./images/YouTube.png" alt="YouTube logo" /></li>
+      </ul>
+    </header>
+    <main>
+      <section class="hero box" id="main">
+        <div class="hero__left">
+          <div class="hero__left__box box">
+            <p class="hero__text secondary-text">Sweet fun, full of milk.</p>
+            <h1 class="hero__title">
+              Feel inside cold with our delicious <span>ice-cream</span>
+            </h1>
+            <p class="hero__text2 primery-text">
+              Some food has looked so awful that it's looked like something that
+              the dog's brought home, yet after one mouthful I've been left
+              eating my thoughts, my words.
+            </p>
+            <a href="#" class="hero_link link">Buy Now</a>
+          </div>
+        </div>
+        <div class="hero__right">
+          <img src="./images/img-main.png" alt="icecream" class="hero__img1" />
+        </div>
+      </section>
+      <section class="about_us" id="about_us">
+        
+        <div class="box">
+            <h2 aria-hidden class="about_us__hide">About Us</h2>
+          <img
+            src="./images/img-pistachio.png"
+            alt="pistachio icecream"
+            class="about__image about_us__img1"
+          />
+          <img
+            src="./images/img-milk.png"
+            alt="pistachio icecream"
+            class="about__image about_us__img2"
+          />
+          <img
+            src="./images/img-strawberry.png"
+            alt="pistachio icecream"
+            class="about__image about_us__img3"
+          />
+          <p class="about_us__text">
+            Porem ipsum dolor sit amet, consectetur adipiscing elit.
+            <span class="about_us__span"
+              >Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+              Class aptent taciti sociosqu ad litora torquen</span
+            >
+            per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+      </section>
+      <section class="our_product" id="our_product">
+        <div class="box">
+          <div class="our_product__btn__h2">
+            <h2 class="our_product__h2 ">Our Product</h2>
+            <a href="#" class="our_product__link2 link1"><</a>
+            <a href="#" class="our_product__link1 link1">></a>
+          </div>
 
-  </header>
-  
-  
+         
+            <ul class="our_product__list">
+              <li>
+                <img
+                  src="./images/prodykt1.png"
+                  alt="Yellow iceCream"
+                  class="our_product__img"
+                />
+                <div class="our_product__buyicecream product">
+                  <h3 class="our_product__h3">Brown bread</h3>
+                  <p class="our_product__text">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon
+                  </p>
+                  <p class="our_product__price">
+                    $19.55 <sub class="our_product__lastprice">$22.55</sub>
+                  </p>
+                  <a href="" class="our_product__link link">BuyNow</a>
+                </div>
+              </li>
 
-  <section>
+              <li>
+                <img
+                  src="./images/prodykt2.png"
+                  alt="Yellow iceCream"
+                  class="our_product__img"
+                />
+                <div class="our_product__buyicecream product">
+                  <h3 class="our_product__h3">Brown bread</h3>
+                  <p class="our_product__text">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon
+                  </p>
+                  <p class="our_product__price">
+                    $19.55 <sub class="our_product__lastprice">$22.55</sub>
+                  </p>
+                  <a href="" class="our_product__link link">BuyNow</a>
+                </div>
+              </li>
 
-    <h2>🐾 Загальна інформація про котів</h2>
-  
- <p>Коти — це невеликі хижі ссавці, одомашнені понад 10 000 років тому. Вони є одними з найпопулярніших домашніх улюбленців у світі завдяки своїй грайливій натурі та незалежному характеру.</p>
+              <li>
+                <img
+                  src="./images/prodykt3.png"
+                  alt="Yellow iceCream"
+                  class="our_product__img"
+                />
+                <div class="our_product__buyicecream product">
+                  <h3 class="our_product__h3">Brown bread</h3>
+                  <p class="our_product__text">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon
+                  </p>
+                  <p class="our_product__price">
+                    $19.55 <sub class="our_product__lastprice">$22.55</sub>
+                  </p>
+                  <a href="" class="our_product__link link">BuyNow</a>
+                </div>
+              </li>
 
-  </section>
-  
-<section>
+              <li>
+                <img
+                  src="./images/prodykt4.png"
+                  alt="Yellow iceCream"
+                  class="our_product__img"
+                />
+                <div class="our_product__buyicecream product">
+                  <h3 class="our_product__h3">Brown bread</h3>
+                  <p class="our_product__text">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon
+                  </p>
+                  <p class="our_product__price">
+                    $19.55 <sub class="our_product__lastprice">$22.55</sub>
+                  </p>
+                  <a href="" class="our_product__link link">BuyNow</a>
+                </div>
+              </li>
 
-  <h2>🧬 Біологічні особливості</h2>
+              <li>
+                <img
+                  src="./images/prodykt5.png"
+                  alt="Yellow iceCream"
+                  class="our_product__img"
+                />
+                <div class="our_product__buyicecream product">
+                  <h3 class="our_product__h3">Brown bread</h3>
+                  <p class="our_product__text">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon
+                  </p>
+                  <p class="our_product__price">
+                    $19.55 <sub class="our_product__lastprice">$22.55</sub>
+                  </p>
+                  <a href="" class="our_product__link link">BuyNow</a>
+                </div>
+              </li>
+            </ul>
+         
+        </div>
+      </section>
+      <section class="app" id="app">
+        <div class="box">
 
-<ul>
+        
+        <div class="app__left">
+          <div class="app__left__text">
+            <h2 class="app__h2">
+              Simple way <span class="app__span">to order </span> your food
+            </h2>
+            <p class="app__text">
+              Some food has looked so awful that it's looked like something that
+              the dog's brought home, yet after one mouthful I've been left
+              eating my thoughts, my words.
+            </p>
+          </div>
+          <ol class="app__ol">
+            <li class="app__step">
+              <span class="app__number">1</span>
+              <p class="app__ol__p">Select Your Food</p>
+            </li>
+            <li class="app__step">
+              <span class="app__number">2</span>
+              <p class="app__ol__p">Add To Cart</p>
+            </li>
+            <li class="app__step">
+              <span class="app__number">3</span>
+              <p class="app__ol__p">Order Your Food</p>
+            </li>
+          </ol>
 
-  <li><p>Наукова назва: Felis catus</p></li>
-  <li><p>Середня тривалість життя: 12–18 років (деякі живуть до 20+ років)</p></li>
-  <li><p>Вага: 3–6 кг (залежить від породи)</p></li>
-  <li><p>Зір: чудово бачать у темряві</p></li>
-  <li><p>Слух: чують звуки до 64 кГц — набагато краще за людей</p></li>
-  <li><p>Вуса: допомагають орієнтуватися в просторі та вимірювати проходи</p></li>
+          <ul class="app__stores">
+            <li><img src="./images/appstore.png" alt="applestore" /></li>
+            <li><img src="./images/playstore.png" alt="playstore" /></li>
+          </ul>
+        </div>
+        <div class="app__right ">
+          <img src="./images/phoneinhand.png" alt="phone on hand" />
+        </div>
+        </div>
+      </section>
+      <section class="contact_form" id="contact_form">
+        <div class="contact_form__form">
+          <h2 class="contact_form__h2">
+            <span class="contact_form__h2_color">Have Question </span>in Mind?
+            Let us help you
+          </h2>
+          <div class="contact_form__inner wrapper">
+            <input
+              type="text"
+              placeholder="Enter your question"
+              class="contact_form__input"
+            />
+            <button type="submit" class="contact_form__button link">
+              Send
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__box">
+        <img
+          src="./images/Logo.png"
+          alt="ice cream shop logo"
+          class="footer__img"
+        />
 
-</section>
-<section>
-  <h2>
-    😼 Характер
-  </h2>
+        <p class="footer__text">
+          Some food has looked so awful that it's looked like something that the
+          dog's brought home.
+        </p>
 
-  <p>Коти можуть бути:</p>
-
-  <ul>
-    
-    <li><p>лагідними й товариськими</p></li>
-    <li><p>незалежними</p></li>
-    <li><p>активними або спокійними</p></li>
-    <li><p>дуже допитливими</p></li>
-
-  </ul>
-
-  <p>Їхній характер залежить від породи, виховання та індивідуальності.</p>
-
-</section>
- <section>
-  <h2>🐈 Популярні породи</h2>
-  <ul>
-    
-    <li><p>Британська короткошерста — спокійні, пухнасті, “ведмежата”</p></li>
-    <li><p>Сфінкс — безшерстні, дуже ласкаві</p></li>
-    <li><p>Мейн-кун — великі, добрі “велетні”</p></li>
-    <li><p>Сіамські коти — голосисті й розумні</p></li>
-    <li><p>Бенгальські — мають дикий леопардовий окрас</p></li>
-
-  </ul>
- </section>
- <section>
-  <h2>🍗годування</h2>
-  <p>Котика потрібно годувати якісним кормом, який містить достатньо білка та корисних речовин.</p>
-  <section>
-  <h2>💧 Вода</h2>
-  <p>У кота завжди має бути свіжа й чиста вода. Коти швидко зневоднюються, тому за мискою потрібно стежити щодня.</p>
- </section>
-  <section>
-  <h2>🧼 Гігієна</h2>
-  <ol>
-    
-    <li>Регулярно чисть лоток.</li>
-    <li>Розчісуй шерсть залежно від породи.</li>
-    <li>Перевіряй чистоту вух, очей і кігтів.</li>
-  </ol>
- </section>
- <section>
-  <h2> 🩺 Здоров’я</h2>
-  <ol>
-    
-    <li>Огляд у ветеринара мінімум раз на рік.</li>
-    <li>Вакцинація повинна проводитись за графіком.</li>
-    <li>Профілактика паразитів — важлива частина догляду.</li>
-  </ol>
- </section>
- <section>
-<h4>"Щасливий котик — це доглянутий котик."</h4>
- </section>
- <section>
-  
-    <section>
-<h2>Ресурси</h2>
-<p>узнай більше про котикііііііів тут</p>
-  <ul>
-    <li><a href="https://chat.openai.com/">Chat GPT</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Cat">Wiki</a></li>
-    <li><a href=""></a>illia olifirovych maind.com</li>
-  </ul>
-
- </section>
- <footer>
- <section>
-  <h2>Оцените сайт</h2>
-  <form>
-    <fieldset>
-      <legend>Чи сподобався вам сайт???</legend>
-      <label>
-        <input type="radio" />Крутой!! 
-      </label>
-      <label>
-        <input type="radio" />Нормально 
-      </label>
-        <label>
-        <input type="radio" />плохой 
-      </label>
-    </fieldset>
-     <fieldset>
-      <legend>информация була потрібна???</legend>
-      <label>
-        <input type="checkbox" />так  
-      </label>
-      <label>
-        <input type="checkbox" />ні
-      </label>
-        <label>
-        <input type="checkbox" />врят ли
-      </label>
-       <label>
-        <input type="checkbox" />маловероятно
-      </label>
-       <label>
-        <input type="checkbox" />не думаю
-      </label>
-       <label>
-        <input type="checkbox" />конечно
-      </label>
-       <label>
-        <input type="checkbox" />частично
-      </label>
-       <label>
-        <input type="checkbox" />отрицаю
-      </label>
-    </fieldset>
-    <fieldset>
-      <label>думка про сайт<input type="text"/></label>
-    </fieldset>
-    <button type="submit">Виправити</button>
-  </form>
- </section>
- <p>2025 проект створено Ілля </p>
- <p>Навчальний проект курсу фронтенд html,css,js </p>
- <p>Контакти:не скажу</p>
-  </footer>
-</body>
+        <ul class="footer__list">
+          <li><img src="./images/Inst.png" alt="Instagram logo" /></li>
+          <li><img src="./images/Facebook.png" alt="Facebook logo" /></li>
+          <li><img src="./images/TikTok.png" alt="TikTok logo" /></li>
+          <li><img src="./images/YouTube.png" alt="YouTube logo" /></li>
+        </ul>
+      </div>
+      <nav>
+        <ul class="footer__list2">
+          <li><a href="#main" class="footer__main">Main</a></li>
+          <li><a href="#about_us" class="footer__ul">About Us</a></li>
+          <li><a href="#our_product" class="footer__ul">Trainers</a></li>
+          <li><a href="#app" class="footer__ul">App</a></li>
+          <li><a href="#contact_form" class="footer__ul">contact form</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer__main" class="footer__ul">Contacts</h2>
+        <a href="tel:831466300" class="footer__ul">831466300</a>
+        <a href="#" class="footer__ul">info@basketball.com</a>
+      </div>
+      <div>
+        <h2 class="footer__main">Location</h2>
+        <address>
+          <a href="https://maps.app.goo.gl/CnxFwhgzgsgVdCWh6" class="footer__ul"
+            >1347 Pacific Avenue, Suite 201</a
+          >
+          <a href="https://maps.app.goo.gl/Qn1H8gBmS6EdxpPU6" class="footer__ul"
+            >Santa Cruz, CA, 95060</a
+          >
+        </address>
+      </div>
+    </footer>
+  </body>
 </html>

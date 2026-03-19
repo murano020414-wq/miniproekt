@@ -1,0 +1,725 @@
+:root{
+--backround: #000000;
+--prilymary: #FFFFFF;
+--acsent:#D23166;
+--secondary: #FAFAFA;
+--graytext: rgb(95, 89, 89);
+--graybackround: rgb(39, 38, 38);
+}
+body{
+    color:var(--prilymary);
+    background-color: var(--backround);
+   
+    
+}
+ul,ol {
+  list-style: none;
+}
+.hero__title {
+font-family: "Alexandria";
+font-size: 57.33px;
+line-height: 94%;
+  letter-spacing: -7%;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.hero__title span {
+    color: var(--acsent);
+}
+.primary-text {
+font-family: "Manrope";
+font-size: 18px;
+line-height: 27px;
+}
+
+
+.nav-list a {
+ color: white;
+ text-decoration: none;
+ font-family: "Alexandria";
+ max-width: 507px;
+ width: 100%;
+ display: flex;
+ justify-content: space-between
+ 
+ 
+}
+header{
+
+display: flex;
+justify-content: space-between
+
+
+}
+
+.social-list {
+  display: flex; 
+  list-style: none; 
+}
+.hero__text {
+  font-family: "Manrope";
+}
+.hero__text2 {
+  line-height: 27px;
+  font-family: "Manrope";
+  letter-spacing: 0%;
+}
+.hero_link {
+text-decoration: none;
+color: var(--secondary);
+background-color: #D23166;
+border-radius: 5px;
+font-size: 30px;
+font-family:"Alexandria";
+}
+.about_us__text {
+  font-size: 57.33px;
+  font-family: "Alexandria", sans-serif;
+  letter-spacing: -4%;
+  text-align: center;
+  line-height: 100%;
+  font-weight: 400;
+  
+  
+}
+.about_us__span {
+color: var(--graybackround);
+}
+.our_product__h2 {
+  font-family: "Roboto";
+  letter-spacing: -7%;
+  font-size: 56px;
+  margin-bottom: 18px;
+}
+.our_product__buyicecream {
+background-color: var(--graybackround);
+font-family:"Roboto" ;
+list-style: none;
+width: 297px; 
+border-radius: 5px;
+flex-direction: column;
+display: flex;
+flex-grow: 1;
+padding: 24px;
+
+}
+.our_product__text {
+  color: var(--graytext);
+  margin-bottom: 28px;
+}
+.our_product__price {
+  font-family: "Hind Madurai";
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 26px;
+
+}
+.our_product__lastprice {
+  text-decoration: line-through;
+  color: gray;
+  
+}
+.our_product__link {
+text-decoration: none;
+color: var(--secondary);
+background-color: #D23166;
+border-radius: 5px;
+font-size: 20px;
+font-family:"Roboto";
+width: 100%;
+height: 40px;
+text-align: center;
+cursor: pointer;
+padding: 10px;
+
+
+
+}
+.app__h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  letter-spacing: -7%;
+  line-height: 94%;
+  font-weight: 500;
+  margin-bottom: 16px;
+  
+}
+.app__text {
+font-family: "Manrope";
+line-height: 27px;
+font-size: 18px;
+opacity: 60%;
+margin-bottom: 64px;
+}
+.app__span {
+  color: #D23166;
+  gap: 10px;
+}
+.app__ol {
+  list-style: none;
+  opacity: 60%;
+  font-family: "Manrope";
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 48px;
+  
+    
+    padding-left: 0;            
+    padding-right: auto;
+}
+.app__step  {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.app__number {
+display: flex;
+width: 48px;
+height: 48px;
+border: 1px solid white;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+}
+.app__step:not(:last-child) {
+margin-bottom: 26px;
+}
+.app__step {
+  position:relative
+}
+.app__step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 23px;
+  width: 1px;
+  height: 22px;
+  background-color: #FFFFFF60;
+  gap: 10px;
+  /*transform: translate(-50%, -50%); */
+}
+.app__stores {
+ display: flex;
+gap: 12px;
+
+}
+.contact_form__h2 {
+  font-family: "Alexandria";
+  letter-spacing: -7%;
+  justify-content: center;
+  line-height: 94%;
+  font-size: 57.33px;
+}
+.contact_form__h2_color {
+  color: var(--acsent);
+}
+ 
+.contact_form__button {
+text-decoration: none;
+color: var(--secondary);
+background-color: #D23166;
+border-radius: 5px;
+font-size: 30px;
+font-family:"Roboto";
+justify-content: center
+}
+.footer {
+  font-family: "Manrope";
+  background-color: var(--graybackround);
+}
+ 
+ .hero {
+  display: flex;
+  justify-content: space-between;
+ }
+ .hero__left {
+  height: 338px;
+  padding-block: 125px;
+  
+ }
+ .hero__right {
+  width: 1000px;
+  height: 588px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ .hero {
+  margin-bottom: 60px;
+  padding-block: 60px;
+ }
+
+  
+
+
+
+.hero__title{
+margin-bottom: 16px;
+
+}
+.hero__text2{
+margin-bottom: 48px;
+font-size: 18px;
+line-height: 1.5;
+opacity: 60%;
+}
+.hero__text {
+margin-bottom: 20px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1;
+letter-spacing: 1.4;
+}
+.hero_link {
+  font-family: "Hind Madurai";
+  max-width: 165px;
+  width: 100%;
+ padding-block: 13.5px;
+ text-transform: capitalize;
+ font-weight: 700;
+ font-size: 16px;
+ display: block;
+ text-align: center;
+}
+.box {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+ padding-inline: 96px;
+ position: relative;
+ padding: 60px 96px;
+}
+
+.our_product__box{
+  max-width: 1440px;
+ margin: 0 auto;
+
+}
+.our_product__list {
+  display: flex;
+  gap: 20px;
+overflow-x: auto;
+
+}
+.our_product__buyicecream {
+  flex-basis: 297px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 24px 30px;
+  border-radius: 20px;
+  display: flex;
+}
+.our_product__img {
+  width: 100%;
+  height: 274px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  width: 297px;
+}
+.nav-list {
+display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center
+}
+
+
+
+
+.our_product__btn__h2 {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+ 
+}
+.link1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-family: 'Hind Madurai', sans-serif;
+  background-color: #FFFFFF10;
+ gap: 18px ;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+font-weight: 400;
+font-size: 25px;
+
+}
+.our_product__link2 {
+margin-right: 18px;
+}
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+*:not(dialog) {
+  margin: 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+.about_us__hide {
+  color: #000000;
+}
+.about_us__img1 {
+  width: 137px;
+  top: -1px;
+  left: 1120px;
+}
+.about_us__img2 {
+  width: 144px;
+  top: 170px;
+  left:90px;
+  height: 144px;
+}
+.about_us__img3 {
+  width: 90px;
+  top: 310px;
+  left: 720px;
+  height: 90px;
+}
+.about_us__box {
+  position: relative;
+ width: 100%;
+ 
+ padding-inline: 96px;
+padding-top: 69px;
+padding-bottom: 45px;
+margin: 0;
+}
+.about__image {
+  position: absolute;
+  aspect-ratio: 1/1;
+}
+
+
+.app {
+
+ padding: 60px 96px 60px 96px;
+ 
+ 
+}
+.app .box {
+  display: flex;
+  align-items: center;
+  
+}
+
+.app__right {
+flex: 1 0 782px ;
+}
+.app__left__text {
+  max-width: 466px;
+  width: 466px;
+ box-sizing: border-box;
+
+}
+.app__h2 {
+  font-family: "Roboto", sans-serif;
+  height: 106px;
+}
+
+
+
+
+.contact_form {
+  height: 684px;
+   align-items: center;
+     margin: 0 auto;
+}
+.contact_form__h2 {
+  height: 115px;
+  width: 653px;
+text-align: center;
+  margin: 0 auto;
+margin-bottom: 56px;
+font-weight: 400;
+width: 653px;
+height: 108px;
+}
+.contact_form__form {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Alexandria;
+  
+}
+.contact_form__input {
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 23.5px 30px;
+  width: 100%;
+  border: none;
+  
+
+}
+.contact_form__input::placeholder {
+font-size: 20px;
+}
+
+
+
+
+.contact_form {
+background-image:
+		linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+		url(./images/backround.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+
+ 
+
+
+
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+
+.header {
+	padding-block: 40px;
+}
+.social-list {
+  gap: 15px;
+}
+
+
+.nav-list {
+  gap: 95px;
+}
+.section {
+	padding-block: 60px;
+}
+
+
+.our_product__link {
+text-decoration: none;
+color: var(--secondary);
+background-color: #D23166;
+border-radius: 5px;
+font-size: 16px;
+font-family:"Roboto";
+width: 100%;
+height: 40px;
+text-align: center;
+cursor: pointer;
+padding: 10px;
+padding-bottom: 20px;
+
+}
+.contact_form {
+  max-width: 684px;
+}
+
+.contact_form__form {
+  height: 100%;
+}
+.contact_form__inner {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 9999px;
+  display: flex;
+}
+.contact_form__input{
+  background-color: transparent;
+  border: none;
+  padding: 23.5px 30px;
+  width: 100%;
+  color: #FFFFFF;
+  outline: none;
+  
+}
+.contact_form__input::placeholder{
+  font-size: 20px;
+}
+.contact_form__button {
+  border-radius: 9999px;
+  padding-inline: 44px;
+ 
+}
+.footer {
+  background-color: var(--graybackround);
+  display: flex;
+gap: 140px;
+padding-block: 100px;
+padding-inline: 97px;
+}
+
+ .footer__img {
+  margin-bottom: 27px;
+  max-width: 176px; 
+  width: 100%;
+
+ }
+ .footer__text {
+  margin-bottom: 24px;
+  opacity: 60%;
+  font-size: 17px;
+ }
+ .footer__list {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+ justify-content: flex-start !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    width: fit-content; 
+}
+ 
+ .footer__main {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Manrope" sans-serif;
+  margin-bottom: 33px;
+ }
+ .footer__ul {
+  font-family: "Manrope" sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 60%;
+  text-wrap: nowrap;
+ }
+ .about_us {
+  margin-bottom: 70px;
+ }
+ .our_product {
+  margin-bottom: 70px;
+ }
+.app__ol__p {
+  margin-left: 20px;
+}
+.our_product__h2 {
+  margin-left: 0;
+  margin-right: auto;
+}
+.footer__box {
+ max-width: 4999px;
+width: 100%;
+height: 196px;
+margin: 0;
+padding: 0;
+}
+.headeri__list1,
+.headeri__list2,
+.headeri__list3,
+.headeri__list4 {
+  position: relative;
+  display: inline-block;
+
+}
+.headeri__list1::after,
+.headeri__list2::after,
+.headeri__list3::after,
+.headeri__list4::after {
+  content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: white;
+   
+ 
+}
+.headeri__list1:hover::after {
+  width: 40px;
+}
+
+.headeri__list2:hover::after {
+  width: 70px;
+}
+
+.headeri__list3:hover::after {
+  width: 35px;
+}
+
+.headeri__list4:hover::after {
+  width: 60px;
+}
+.headeri__list1:hover::after {
+  width: 100%;
+}
+.about_us {
+  margin: 0;
+}
+.hero__left {
+  margin: 0;
+}
+.hero {
+  padding: 0;
+}
+
+.contact_form__form {
+  margin: 0 auto;
+}
+.contact_form__form {
+  padding-block: 150px;
+}
